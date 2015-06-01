@@ -1,0 +1,115 @@
+#skatercontainer h3 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+#skatercontainer {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.top-skaters {
+  display: inline-block;
+}
+
+.skaters {
+  float: left;
+  display: inline-block;
+  width: 66%;
+  margin: 0;
+  img {
+    border-color: white;
+    border-style: solid;
+    border-width: 7px;
+  }
+}
+
+.last-skater {
+  width: 30%;
+  display: inline-block;
+}
+
+.right {
+  background-image: url("images/tommy.png");
+  margin: 5px;
+  width: 260px;
+  height: 412px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+
+.right:hover {
+  opacity: 0.4;
+}
+
+.top-left {
+  width: 50%;
+  float: left;
+}
+
+.top-left {
+  background-image: url("images/lance.png");
+  margin: 5px;
+  width: 255px;
+  height: 190px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+
+.top-left:hover {
+  opacity: 0.4;
+}
+
+.top-right {
+  width: 50%;
+  float: right;
+}
+
+.top-right:hover {
+  opacity: 0.4;
+}
+
+.top-right {
+  background-image: url("images/rodney.png");
+  margin: 5px;
+  width: 255px;
+  height: 190px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.bottom:hover {
+  opacity: 0.4;
+}
+
+.bottom {
+  background-image: url("images/steve.png");
+  margin: 5px;
+  width: 533px;
+  height: 190px;
+  margin-top: 220px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+
+.redsign img {
+  margin-left: -330px;
+  padding-left: 50px;
+  border-style: none;
+  height: 100px;
+  width: 270px;
+}

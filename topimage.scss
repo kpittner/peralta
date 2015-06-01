@@ -1,0 +1,18 @@
+.top-image img {
+  position: absolute;
+  border-color: white;
+  border-width: 7px;
+  border-style: solid;
+  width: 59%;
+  height: 300px;
+  z-index: 1;
+}
+
+.top-image .logo {
+  position: absolute;
+  z-index: 1;
+  width: 25%;
+  height: 28%;
+  padding-top: 55px;
+  border: none;
+}

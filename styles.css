@@ -1,0 +1,455 @@
+#container {
+  width: 60%;
+  margin: 0 auto; }
+
+.media {
+  margin-top: -5px; }
+  .media img {
+    width: 50px;
+    height: 50px; }
+
+.shapes {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  margin-top: 5px;
+  margin-right: 60px;
+  float: right; }
+
+header p a {
+  color: white;
+  padding-left: 450px;
+  padding-top: 20px;
+  text-decoration: none;
+  font-weight: lighter; }
+
+header {
+  clear: both;
+  padding-top: 10px; }
+
+header img {
+  float: right;
+  padding-left: 5px;
+  margin: 0; }
+
+header ul li {
+  list-style-type: none; }
+
+ul li {
+  margin: 0; }
+
+section ul li {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: inline-block; }
+
+.menubar {
+  display: inline-block; }
+  .menubar ul {
+    padding: 0; }
+  .menubar ul li {
+    margin-right: 5px;
+    margin-left: 5px; }
+  .menubar img {
+    width: 199px;
+    height: 45px; }
+
+.top-image img {
+  position: absolute;
+  border-color: white;
+  border-width: 7px;
+  border-style: solid;
+  width: 59%;
+  height: 300px;
+  z-index: 1; }
+
+.top-image .logo {
+  position: absolute;
+  z-index: 1;
+  width: 25%;
+  height: 28%;
+  padding-top: 55px;
+  border: none; }
+
+.stories {
+  height: 480px;
+  width: 100%;
+  padding: 0; }
+  .stories img {
+    width: 275px;
+    height: 280px;
+    margin-top: 315px;
+    padding-left: 5px; }
+
+#skatercontainer h3 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 60px; }
+
+#skatercontainer {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 5px; }
+
+.top-skaters {
+  display: inline-block; }
+
+.skaters {
+  float: left;
+  display: inline-block;
+  width: 66%;
+  margin: 0; }
+  .skaters img {
+    border-color: white;
+    border-style: solid;
+    border-width: 7px; }
+
+.last-skater {
+  width: 30%;
+  display: inline-block; }
+
+.right {
+  background-image: url("images/tommy.png");
+  margin: 5px;
+  width: 260px;
+  height: 412px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px; }
+
+.right:hover {
+  opacity: 0.4; }
+
+.top-left {
+  width: 50%;
+  float: left; }
+
+.top-left {
+  background-image: url("images/lance.png");
+  margin: 5px;
+  width: 255px;
+  height: 190px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px; }
+
+.top-left:hover {
+  opacity: 0.4; }
+
+.top-right {
+  width: 50%;
+  float: right; }
+
+.top-right:hover {
+  opacity: 0.4; }
+
+.top-right {
+  background-image: url("images/rodney.png");
+  margin: 5px;
+  width: 255px;
+  height: 190px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px; }
+
+.bottom {
+  width: 100%; }
+
+.bottom:hover {
+  opacity: 0.4; }
+
+.bottom {
+  background-image: url("images/steve.png");
+  margin: 5px;
+  width: 533px;
+  height: 190px;
+  margin-top: 220px;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px; }
+
+.redsign img {
+  margin-left: -330px;
+  padding-left: 50px;
+  border-style: none;
+  height: 100px;
+  width: 270px; }
+
+.box {
+  background-color: white;
+  width: 100%;
+  height: 280px;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 20px; }
+  .box img {
+    padding-left: 10px; }
+  .box li {
+    padding-left: 5px; }
+  .box img:hover {
+    transition: all 0.8s ease;
+    transform: scale(2); }
+
+.box2 {
+  background-color: white;
+  width: 100%;
+  height: 280px;
+  margin: 0 auto;
+  float: left;
+  margin-bottom: 20px; }
+
+p, h4 {
+  width: 60%;
+  color: grey;
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-top: 10px; }
+
+form {
+  float: right;
+  padding-right: 20px;
+  color: grey;
+  margin-top: -160px; }
+
+.name {
+  border-style: inset;
+  border-color: grey;
+  border-width: thin;
+  margin-bottom: 21px;
+  width: 200px;
+  height: 25px;
+  font-size: 10px; }
+
+.email {
+  border-style: inset;
+  border-color: grey;
+  border-width: thin;
+  margin-bottom: 21px;
+  width: 200px;
+  height: 25px;
+  font-size: 10px; }
+
+.message {
+  border-style: inset;
+  border-color: grey;
+  border-width: thin;
+  margin-bottom: 21px;
+  width: 200px;
+  height: 70px;
+  font-size: 10px; }
+
+button {
+  background-color: #CC0518;
+  color: white;
+  width: 150px;
+  float: right;
+  margin-top: -5px; }
+
+.media-box {
+  float: left;
+  padding-left: 20px;
+  margin: 0;
+  -webkit-filter: grayscale(1); }
+
+/********************tablet size************************/
+@media screen and (max-width: 1024px) {
+  #container {
+    width: 95%;
+    margin: 0 auto; }
+  header p a {
+    color: white;
+    padding-left: 580px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: lighter; }
+  .menubar img {
+    width: 219px;
+    height: 45px; }
+  .top-image img {
+    position: absolute;
+    border-color: white;
+    border-width: 7px;
+    border-style: solid;
+    width: 94%;
+    height: 300px;
+    z-index: 1; }
+  .top-image .logo {
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    height: 38%;
+    padding-top: 55px;
+    border: none; }
+  .stories {
+    height: 480px;
+    width: 100%;
+    padding: 0; }
+  .stories img {
+    width: 305px;
+    height: 280px;
+    margin-top: 315px; }
+  .redsign img {
+    margin-top: 110px;
+    margin-bottom: 10px;
+    padding-left: 333px;
+    height: 100px;
+    width: 100%; }
+  .top-left img {
+    margin: 5px;
+    width: 300px;
+    height: 190px; }
+  .top-right img {
+    margin: 5px;
+    width: 300px;
+    height: 190px; }
+  .bottom img {
+    margin: 5px;
+    width: 618px;
+    height: 190px; }
+  section ul li {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    display: inline-block; }
+  .box img {
+    padding-left: 10px; }
+  .box > li {
+    padding-left: 5px; }
+  form {
+    float: right;
+    padding-right: 20px;
+    color: grey;
+    margin-top: -140px; } }
+
+/********************Mobile size************************/
+@media screen and (max-width: 568px) {
+  #container {
+    width: 100%;
+    margin: 0;
+    overflow: hidden; }
+  header p a {
+    color: white;
+    padding: 0;
+    margin-left: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: bold; }
+  .shapes {
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    -webkit-border-radius: 3px;
+    margin-top: 5px;
+    margin-right: 190px;
+    float: right; }
+  .media {
+    margin-top: -5px;
+    margin-right: 30px; }
+  .menubar img {
+    width: 523px;
+    height: 60px; }
+  .top-image img {
+    position: absolute;
+    border-color: white;
+    border-width: 7px;
+    border-style: solid;
+    width: 90%;
+    height: 300px;
+    margin-left: 15px;
+    z-index: 1; }
+  .top-image .logo {
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    height: 35%;
+    padding-top: 55px;
+    border: none; }
+  .stories {
+    height: 480px;
+    width: 100%;
+    padding: 0;
+    margin-top: 330px; }
+  .stories img {
+    width: 520px;
+    height: 290px;
+    margin-left: 5px;
+    margin-top: 20px; }
+  .redsign img {
+    margin-top: 455px;
+    margin-bottom: 10px;
+    padding-left: 353px;
+    height: 100px;
+    width: 90%; }
+  #skatercontainer {
+    float: left;
+    width: 100%;
+    margin: 0 auto; }
+  .top-skaters {
+    display: inline-block; }
+  .skaters {
+    float: left;
+    width: 100%;
+    margin: 0; }
+  .last-skater {
+    width: 30%;
+    margin-left: 120px; }
+  .top-left img {
+    margin: 10px;
+    width: 520px;
+    height: 190px; }
+  .top-right img {
+    margin: 10px;
+    width: 520px;
+    height: 190px;
+    margin-top: 234px;
+    float: inherit;
+    margin-right: 20px; }
+  .bottom img {
+    margin: 10px;
+    width: 522px;
+    height: 190px; }
+  .right {
+    background-image: url("images/tommy2.png");
+    margin: 5px;
+    width: 530px;
+    height: 190px;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    margin: 10px;
+    margin-left: -113px;
+    background-repeat: no-repeat; }
+  section ul li {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    display: inline-block; }
+  .box img {
+    padding-left: 0; }
+  .box > li {
+    padding-left: 0; }
+  form {
+    float: right;
+    padding-right: 20px;
+    color: grey;
+    margin-top: -170px; }
+  .box2 p, h4 {
+    width: 50%;
+    color: grey;
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 40px; }
+  .media-box {
+    float: left;
+    padding-left: 20px;
+    margin: 0;
+    -webkit-filter: grayscale(1); } }

@@ -1,0 +1,98 @@
+@media screen and (max-width: 1024px) {
+  #container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  header p a {
+    color: white;
+    padding-left: 580px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+
+  .menubar img {
+    width: 219px;
+    height: 45px;
+  }
+
+  .top-image img {
+    position: absolute;
+    border-color: white;
+    border-width: 7px;
+    border-style: solid;
+    width: 94%;
+    height: 300px;
+    z-index: 1;
+  }
+
+  .top-image .logo {
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    height: 38%;
+    padding-top: 55px;
+    border: none;
+  }
+
+  .stories {
+    height: 480px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .stories img {
+    width: 305px;
+    height: 280px;
+    margin-top: 315px;
+  }
+
+  .redsign img {
+    margin-top: 110px;
+    margin-bottom: 10px;
+    padding-left: 333px;
+    height: 100px;
+    width: 100%;
+  }
+
+  .top-left img {
+    margin: 5px;
+    width: 300px;
+    height: 190px;
+  }
+
+  .top-right img {
+    margin: 5px;
+    width: 300px;
+    height: 190px;
+  }
+
+  .bottom img {
+    margin: 5px;
+    width: 618px;
+    height: 190px;
+  }
+
+  section ul li {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    display: inline-block;
+  }
+
+  .box img {
+    padding-left: 10px;
+  }
+
+  .box>li {
+    padding-left: 5px;
+  }
+
+  form {
+    float: right;
+    padding-right: 20px;
+    color: grey;
+    margin-top: -140px;
+  }
+}
